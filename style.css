@@ -11,6 +11,7 @@
 header {
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 header nav {
@@ -98,4 +99,195 @@ main span {
   width: 70%;
   position: relative;
   left: 250px;
+}
+
+.moreSpace {
+  width: 60%;
+  border-top: 1px solid #000000;
+  padding-bottom: 70px;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+#moreSpaceTitle {
+  position: relative;
+  font-size: 20px;
+  font-weight: 550;
+  top: 20px;
+}
+
+.moreSpace ul {
+  display: inline-block;
+  width: 100%;
+}
+
+.moreSpace ul li {
+  display: inline-block;
+  width: 33%;
+}
+
+.moreSpace img {
+  width: 295px;
+  padding-top: 40px;
+  padding-right: 18px;
+}
+
+.moreSpace figcaption {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.moreSpace small {
+  font-size: 12px;
+}
+
+.space {
+  position: relative;
+  top: 23px;
+}
+
+.rocket {
+  position: relative;
+  top: 37px;
+  width: 85%;
+}
+.imgUpCap {
+  font-size: 8px;
+  float: right;
+  position: relative;
+  right: 8px;
+}
+
+.editorPick {
+  border-top: 1px solid #121212;
+  margin-top: 70px;
+  padding-bottom: 100px;
+}
+
+.editorPick li {
+  width: 33%;
+}
+
+.editorPick h3 {
+  padding-top: 10px;
+}
+.editorPick a {
+  color: #121212;
+}
+
+.death {
+  position: relative;
+  bottom: 23px;
+}
+
+.side-footer {
+  width: 30%;
+  position: absolute;
+  left: 950px;
+  top: 708px;
+  border-top: 1px solid #000;
+}
+
+.side-footer ul {
+  display: block;
+  width: 100%;
+}
+
+.side-footer ul li {
+  width: 90%;
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-top: 1px solid #3333;
+}
+
+.side-footer h3 {
+  font-size: 20px;
+  padding-top: 32px;
+  padding-bottom: 2px;
+}
+
+footer {
+  position: relative;
+  left: 5%;
+  width: 90%;
+  border-top: 2px groove #333;
+  border-bottom: 2px groove #333;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+
+  padding-top: 20px;
+}
+
+footer h1 {
+  padding-bottom: 10px;
+}
+
+footer table {
+  width: 100%;
+}
+
+.footer-titles th {
+  text-align: left;
+}
+
+footer p a {
+  color: #567b95;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  font-size: 10px;
+}
+
+footer tr {
+  padding-top: 7px;
+}
+
+.footer2 {
+  width: 90%;
+  position: absolute;
+  left: 15%;
+}
+
+.footer2 ul {
+  padding-top: 10px;
+}
+
+.footer2 li {
+  display: inline;
+  font-size: 12px;
+  margin-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.footer2 li a {
+  color: #666666;
+}
+
+.expand {
+  width: 100%;
+  height: 12px;
+  text-align: center;
+  position: relative;
+  border-top: 1px solid #000000;
+  top: 50px;
+  padding: 20px 0;
+  margin: 5px 1% 5px 1%;
+  transition: height 1s;
+  /* -webkit-transition: height 0.5s; */
+  overflow: hidden;
+}
+
+.expand span {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+
+.expand:hover {
+  height: 500px;
 }
