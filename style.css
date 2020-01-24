@@ -26,6 +26,10 @@ header nav ul {
   display: inline-block;
 }
 
+aside ul li {
+  margin-bottom: 30px;
+}
+
 header nav ul li {
   display: inline-block;
 }
@@ -61,6 +65,10 @@ header nav ul a {
 .center-nav::after {
   content: '';
   clear: both;
+}
+
+body {
+  height: 100vh;
 }
 
 main article nav ul li button {
@@ -193,6 +201,11 @@ main article .navigation {
   border-top: 1px solid #3333;
 }
 
+aside ul li a {
+  width: 40%;
+  float: right;
+}
+
 main article .navigation li {
   margin-left: 10px;
 }
@@ -306,6 +319,11 @@ main article section figcaption {
   width: 100%;
 }
 
+aside ul li img {
+  display: block;
+  width: 50%;
+}
+
 .moreSpace img {
   width: 295px;
   padding-top: 40px;
@@ -366,29 +384,20 @@ main article section figcaption {
   padding-top: 32px;
   padding-bottom: 2px;
 }
-aside h2{
+
+aside h2 {
   margin-bottom: 20px;
 }
-aside{
+
+aside {
   width: 20%;
   position: relative;
   float: right;
   bottom: 3000px;
 }
-aside ul li{
-  margin-bottom: 30px;
-}
 
-aside ul li img{
-  display: block;
-  width: 50%;
-}
-aside ul li a{
-  width: 40%;
-  float: right;
-}
 footer {
-  position: rel;
+  position: relative;
   left: 4%;
   width: 90%;
   border-top: 2px groove #333;
@@ -396,7 +405,7 @@ footer {
   margin-bottom: 10px;
   padding-bottom: 20px;
   padding-top: 20px;
-  bottom: 100px;
+  bottom: 800px;
 }
 
 footer h1 {
@@ -419,7 +428,7 @@ footer tr {
   width: 90%;
   position: relative;
   left: 15%;
-  bottom: 20px;
+  bottom: 800px;
 }
 
 .footer2 ul {
@@ -432,19 +441,12 @@ footer tr {
   text-align: center;
   position: relative;
   border-top: 1px solid #000;
-  bottom: 0;
+  bottom: 800px;
   padding: 20px 0;
   margin: 5px 1% 5px 1%;
-  overflow: hidden;
 }
 
 @media only screen and (max-width: 1280px) {
-  .side-footer {
-    width: 25%;
-    position: absolute;
-    left: 950px;
-  }
-
   .moreSpace {
     width: 70%;
     border-top: 1px solid #000;
