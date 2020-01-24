@@ -366,7 +366,27 @@ main article section figcaption {
   padding-top: 32px;
   padding-bottom: 2px;
 }
+aside h2{
+  margin-bottom: 20px;
+}
+aside{
+  width: 20%;
+  position: relative;
+  float: right;
+  bottom: 3000px;
+}
+aside ul li{
+  margin-bottom: 30px;
+}
 
+aside ul li img{
+  display: block;
+  width: 50%;
+}
+aside ul li a{
+  width: 40%;
+  float: right;
+}
 footer {
   position: rel;
   left: 4%;
