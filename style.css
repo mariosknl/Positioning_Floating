@@ -278,7 +278,6 @@ main article section figcaption {
 .editorPick {
   border-top: 1px solid #121212;
   margin-top: 70px;
-  /* padding-bottom: 100px; */
 }
 
 .editorPick li {
@@ -301,7 +300,7 @@ main article section figcaption {
   width: 30%;
   position: relative;
   left: 950px;
-  bottom: 1204px;
+  bottom: 1103px;
   border-top: 1px solid #000;
 }
 
@@ -327,13 +326,14 @@ main article section figcaption {
 
 footer {
   position: relative;
-  left: 5%;
+  left: 4%;
   width: 90%;
   border-top: 2px groove #333;
   border-bottom: 2px groove #333;
   margin-bottom: 10px;
   padding-bottom: 20px;
   padding-top: 20px;
+  bottom: 800px;
 }
 
 footer h1 {
@@ -362,8 +362,9 @@ footer tr {
 
 .footer2 {
   width: 90%;
-  position: absolute;
+  position: relative;
   left: 15%;
+  bottom: 810px;
 }
 
 .footer2 ul {
@@ -388,15 +389,8 @@ footer tr {
   text-align: center;
   position: relative;
   border-top: 1px solid #000000;
-  top: 50px;
+  bottom: 810px;
   padding: 20px 0;
   margin: 5px 1% 5px 1%;
-  transition: height 1s;
   overflow: hidden;
-}
-
-.expand span {
-  position: absolute;
-  right: 40px;
-  top: 20px;
 }
