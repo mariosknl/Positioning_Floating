@@ -45,7 +45,7 @@ header nav ul a {
 
 .center-nav {
   margin-top: 7px;
-  margin-left: 450px;
+  margin-left: 350px;
   font-family: 'UnifrakturCook', cursive;
   font-size: 20px;
 }
@@ -58,7 +58,7 @@ header nav ul a {
 .right-nav button {
   position: relative;
   bottom: 10px;
-  left: 380px;
+  left: 270px;
   padding: 5px 15px;
   background-color: #326891;
   font-size: 12px;
