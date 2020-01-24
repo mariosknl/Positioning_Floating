@@ -300,7 +300,7 @@ main article section figcaption {
   width: 30%;
   position: relative;
   left: 950px;
-  bottom: 1103px;
+  bottom: -8343px;
   border-top: 1px solid #000;
 }
 
@@ -333,7 +333,7 @@ footer {
   margin-bottom: 10px;
   padding-bottom: 20px;
   padding-top: 20px;
-  bottom: 800px;
+  bottom: 20px;
 }
 
 footer h1 {
@@ -364,7 +364,7 @@ footer tr {
   width: 90%;
   position: relative;
   left: 15%;
-  bottom: 810px;
+  bottom: 20px;
 }
 
 .footer2 ul {
@@ -389,8 +389,30 @@ footer tr {
   text-align: center;
   position: relative;
   border-top: 1px solid #000000;
-  bottom: 810px;
+  bottom: 0px;
   padding: 20px 0;
   margin: 5px 1% 5px 1%;
   overflow: hidden;
+}
+@media only screen and (max-width: 1280px) {
+ 
+  .side-footer {
+    width: 25%;
+    position: absolute;
+    left: 950px;
+  }
+  .moreSpace{
+    width: 70%;
+    border-top: 1px solid #000000;
+    padding-bottom: 70px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+  }
+  .container{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
 }
