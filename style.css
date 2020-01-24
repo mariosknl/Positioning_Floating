@@ -29,13 +29,21 @@ header nav ul {
 header nav ul li {
   display: inline-block;
 }
+
+footer p a {
+  color: #567b95;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  font-size: 10px;
+}
+
 header nav ul a {
   color: black;
 }
 
 .left-nav {
   float: left;
-  font-size: 16px;
   padding-right: 10px;
   margin-top: 10px;
   margin-left: 25px;
@@ -53,6 +61,16 @@ header nav ul a {
 .center-nav::after {
   content: '';
   clear: both;
+}
+
+main article nav ul li button {
+  background: #567b95;
+  cursor: pointer;
+  width: 250px;
+  border: none;
+  height: 40px;
+  color: #fffff8;
+  border-radius: 5px;
 }
 
 .right-nav button {
@@ -81,10 +99,12 @@ main h1 {
   font-family: 'Chela One', cursive;
   letter-spacing: 2px;
 }
+
 main hr {
   width: 100px;
   margin-top: 10px;
 }
+
 main span {
   display: block;
   position: relative;
@@ -113,13 +133,16 @@ main article {
   left: 25%;
   width: 50%;
 }
+
 main article nav ul {
   display: inline-block;
   margin-top: 30px;
 }
+
 main article nav ul li {
   display: inline-block;
 }
+
 main article nav ul li span {
   position: absolute;
   font-size: 15px;
@@ -128,45 +151,84 @@ main article nav ul li span {
   width: 20px;
   text-align: center;
 }
+
 main article nav ul li i {
   font-size: 25px;
 }
+
 main article .navigation {
   float: right;
 }
+
+.bloc1 li,
+.bloc2 li {
+  display: inline-block;
+  width: 23.5%;
+  margin-left: 1%;
+}
+
+.editorPick li {
+  width: 33%;
+}
+
+.footer2 li {
+  display: inline;
+  font-size: 12px;
+  margin-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.moreSpace ul li {
+  display: inline-block;
+  width: 33%;
+}
+
+.side-footer ul li {
+  width: 90%;
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-top: 1px solid #3333;
+}
+
 main article .navigation li {
   margin-left: 10px;
 }
+
+.editorPick a {
+  color: #121212;
+}
+
+.footer2 li a {
+  color: #666;
+}
+
 main article .navigation li a {
   color: #121212;
 }
+
 main article .navigation li a:hover {
   color: blue;
 }
+
 main article section {
   margin-top: 40px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   line-height: 1.8rem;
 }
+
 main article section p {
   font-family: 'Times New Roman', Times, serif;
   margin-top: 15px;
   text-align: justify;
   font-weight: normal;
 }
+
 main article section h3 {
   margin-top: 10px;
-}
-
-main article nav ul li button {
-  background: #567b95;
-  cursor: pointer;
-  width: 250px;
-  border: none;
-  height: 40px;
-  color: #fffff8;
-  border-radius: 5px;
 }
 
 main article section figcaption {
@@ -183,42 +245,49 @@ main article section figcaption {
 .text-bloc {
   position: relative;
 }
+
 .bloc1 {
   position: absolute;
   top: -29rem;
 }
+
 .bloc2 {
   position: absolute;
   top: -10rem;
 }
-.bloc1 li,
-.bloc2 li {
-  display: inline-block;
-  width: 23.5%;
-  margin-left: 1%;
-}
+
 .bloc1 li .first,
 .bloc2 li .first {
   margin-left: 0%;
 }
+
 #universe-img {
   width: 100%;
 }
+
 #second-article {
   position: relative;
   margin-left: -15%;
   width: 80%;
 }
-#second-article figcaption {
-  margin: 10px 0px 10px 0px;
+
+.moreSpace figcaption {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
 }
+
+#second-article figcaption {
+  margin: 10px 0 10px 0;
+}
+
 #cosmos {
   width: 100%;
 }
 
 .moreSpace {
   width: 60%;
-  border-top: 1px solid #000000;
+  border-top: 1px solid #000;
   padding-bottom: 70px;
   position: relative;
   left: 50px;
@@ -237,21 +306,10 @@ main article section figcaption {
   width: 100%;
 }
 
-.moreSpace ul li {
-  display: inline-block;
-  width: 33%;
-}
-
 .moreSpace img {
   width: 295px;
   padding-top: 40px;
   padding-right: 18px;
-}
-
-.moreSpace figcaption {
-  width: 100%;
-  font-size: 20px;
-  font-weight: bold;
 }
 
 .moreSpace small {
@@ -268,6 +326,7 @@ main article section figcaption {
   top: 37px;
   width: 85%;
 }
+
 .imgUpCap {
   font-size: 8px;
   float: right;
@@ -280,15 +339,8 @@ main article section figcaption {
   margin-top: 70px;
 }
 
-.editorPick li {
-  width: 33%;
-}
-
 .editorPick h3 {
   padding-top: 10px;
-}
-.editorPick a {
-  color: #121212;
 }
 
 .death {
@@ -300,22 +352,13 @@ main article section figcaption {
   width: 30%;
   position: relative;
   left: 950px;
-  bottom: -8343px;
+  bottom: 1100px;
   border-top: 1px solid #000;
 }
 
 .side-footer ul {
   display: block;
   width: 100%;
-}
-
-.side-footer ul li {
-  width: 90%;
-  font-size: 22px;
-  font-weight: 500;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  border-top: 1px solid #3333;
 }
 
 .side-footer h3 {
@@ -348,14 +391,6 @@ footer table {
   text-align: left;
 }
 
-footer p a {
-  color: #567b95;
-  position: absolute;
-  right: 10px;
-  top: 15px;
-  font-size: 10px;
-}
-
 footer tr {
   padding-top: 7px;
 }
@@ -371,48 +406,37 @@ footer tr {
   padding-top: 10px;
 }
 
-.footer2 li {
-  display: inline;
-  font-size: 12px;
-  margin-left: 5px;
-  padding-top: 10px;
-  padding-bottom: 30px;
-}
-
-.footer2 li a {
-  color: #666666;
-}
-
 .expand {
   width: 100%;
   height: 12px;
   text-align: center;
   position: relative;
-  border-top: 1px solid #000000;
-  bottom: 0px;
+  border-top: 1px solid #000;
+  bottom: 0;
   padding: 20px 0;
   margin: 5px 1% 5px 1%;
   overflow: hidden;
 }
+
 @media only screen and (max-width: 1280px) {
- 
   .side-footer {
     width: 25%;
     position: absolute;
     left: 950px;
   }
-  .moreSpace{
+
+  .moreSpace {
     width: 70%;
-    border-top: 1px solid #000000;
+    border-top: 1px solid #000;
     padding-bottom: 70px;
     position: relative;
     left: 50px;
     top: 50px;
   }
-  .container{
+
+  .container {
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
   }
-  
 }
