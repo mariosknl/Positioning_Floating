@@ -46,6 +46,9 @@ header nav ul a {
   color: black;
 }
 
+iframe {
+  border: none;
+}
 .left-nav {
   float: left;
   padding-right: 10px;
@@ -131,10 +134,6 @@ main iframe {
   height: 320px;
 }
 
-main figcaption small {
-  color: grey;
-}
-
 main article {
   position: relative;
   margin-top: 30px;
@@ -175,10 +174,6 @@ main article .navigation {
   margin-left: 1%;
 }
 
-.editorPick li {
-  width: 33%;
-}
-
 .footer2 li {
   display: inline;
   font-size: 12px;
@@ -187,9 +182,20 @@ main article .navigation {
   padding-bottom: 30px;
 }
 
-.moreSpace ul li {
-  display: inline-block;
+.moreSpace ul li{
   width: 33%;
+  display: inline-block; 
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+.moreSpace{
+  margin: 30px;
+  display: inline-block;
+  width: 65%;
+}
+.moreSpace ul{
+  width: 100%;
 }
 
 .side-footer ul li {
@@ -202,7 +208,10 @@ main article .navigation {
 }
 
 aside ul li a {
-  width: 40%;
+  width: 47%;
+  color: black;
+  font-size: .8rem;
+  line-height: 1.2rem;
   float: right;
 }
 
@@ -244,11 +253,6 @@ main article section h3 {
   margin-top: 10px;
 }
 
-main article section figcaption {
-  font-size: 0.8rem;
-  line-height: 1rem;
-}
-
 .main-img {
   width: 70%;
   position: relative;
@@ -284,50 +288,18 @@ main article section figcaption {
   width: 80%;
 }
 
-.moreSpace figcaption {
-  width: 100%;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#second-article figcaption {
-  margin: 10px 0 10px 0;
-}
-
 #cosmos {
   width: 100%;
 }
-
-.moreSpace {
-  width: 60%;
-  border-top: 1px solid #000;
-  padding-bottom: 70px;
-  position: relative;
-  left: 50px;
-  top: 50px;
-}
-
-#moreSpaceTitle {
-  position: relative;
-  font-size: 20px;
-  font-weight: 550;
-  top: 20px;
-}
-
-.moreSpace ul {
-  display: inline-block;
-  width: 100%;
-}
+  
 
 aside ul li img {
-  display: block;
   width: 50%;
 }
 
 .moreSpace img {
-  width: 295px;
-  padding-top: 40px;
-  padding-right: 18px;
+  width: 100%;
+  cursor: pointer;
 }
 
 .moreSpace small {
@@ -339,38 +311,16 @@ aside ul li img {
   top: 23px;
 }
 
-.rocket {
+.more-content{
   position: relative;
-  top: 37px;
-  width: 85%;
+  display: inline-block;
+  width: 100%;
 }
-
-.imgUpCap {
-  font-size: 8px;
-  float: right;
-  position: relative;
-  right: 8px;
-}
-
-.editorPick {
-  border-top: 1px solid #121212;
-  margin-top: 70px;
-}
-
-.editorPick h3 {
-  padding-top: 10px;
-}
-
-.death {
-  position: relative;
-  bottom: 23px;
-}
-
 .side-footer {
   width: 30%;
   position: relative;
-  left: 950px;
-  bottom: 1100px;
+  vertical-align: top;
+  float: right;
   border-top: 1px solid #000;
 }
 
@@ -388,24 +338,26 @@ aside ul li img {
 aside h2 {
   margin-bottom: 20px;
 }
-
+.second-section{
+  margin-top: 0px;
+  width: 150%;
+}
 aside {
-  width: 20%;
+  width: 28%;
   position: relative;
   float: right;
-  bottom: 3000px;
 }
 
 footer {
-  position: relative;
+ 
   left: 4%;
   width: 90%;
   border-top: 2px groove #333;
   border-bottom: 2px groove #333;
-  margin-bottom: 10px;
+  margin: 0px 0px 10px 50px;
   padding-bottom: 20px;
   padding-top: 20px;
-  bottom: 800px;
+  
 }
 
 footer h1 {
@@ -428,7 +380,6 @@ footer tr {
   width: 90%;
   position: relative;
   left: 15%;
-  bottom: 800px;
 }
 
 .footer2 ul {
@@ -441,24 +392,10 @@ footer tr {
   text-align: center;
   position: relative;
   border-top: 1px solid #000;
-  bottom: 800px;
   padding: 20px 0;
   margin: 5px 1% 5px 1%;
 }
 
-@media only screen and (max-width: 1280px) {
-  .moreSpace {
-    width: 70%;
-    border-top: 1px solid #000;
-    padding-bottom: 70px;
-    position: relative;
-    left: 50px;
-    top: 50px;
-  }
-
-  .container {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
+#text-2{
+  width: 67%;
 }
