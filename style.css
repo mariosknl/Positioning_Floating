@@ -45,7 +45,7 @@ header nav ul a {
 
 .center-nav {
   margin-top: 7px;
-  margin-left: 350px;
+  margin-left: 280px;
   font-family: 'UnifrakturCook', cursive;
   font-size: 20px;
 }
@@ -58,7 +58,7 @@ header nav ul a {
 .right-nav button {
   position: relative;
   bottom: 10px;
-  left: 270px;
+  left: 200px;
   padding: 5px 15px;
   background-color: #326891;
   font-size: 12px;
@@ -81,7 +81,10 @@ main h1 {
   font-family: 'Chela One', cursive;
   letter-spacing: 2px;
 }
-
+main hr {
+  width: 100px;
+  margin-top: 10px;
+}
 main span {
   display: block;
   position: relative;
@@ -95,10 +98,122 @@ main span {
   letter-spacing: 2px;
 }
 
-#main-img {
+main iframe {
+  width: 100%;
+  height: 320px;
+}
+
+main figcaption small {
+  color: grey;
+}
+
+main article {
+  position: relative;
+  margin-top: 30px;
+  left: 25%;
+  width: 50%;
+}
+main article nav ul {
+  display: inline-block;
+  margin-top: 30px;
+}
+main article nav ul li {
+  display: inline-block;
+}
+main article nav ul li span {
+  position: absolute;
+  font-size: 15px;
+  left: 96.5%;
+  top: 60px;
+  width: 20px;
+  text-align: center;
+}
+main article nav ul li i {
+  font-size: 25px;
+}
+main article .navigation {
+  float: right;
+}
+main article .navigation li {
+  margin-left: 10px;
+}
+main article .navigation li a {
+  color: #121212;
+}
+main article .navigation li a:hover {
+  color: blue;
+}
+main article section {
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+main article section p {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 15px;
+  text-align: justify;
+  font-weight: normal;
+}
+main article section h3 {
+  margin-top: 10px;
+}
+
+main article nav ul li button {
+  background: #567b95;
+  cursor: pointer;
+  width: 250px;
+  border: none;
+  height: 40px;
+  color: #fffff8;
+  border-radius: 5px;
+}
+
+main article section figcaption {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+.main-img {
   width: 70%;
   position: relative;
   left: 250px;
+}
+
+.text-bloc {
+  position: relative;
+}
+.bloc1 {
+  position: absolute;
+  top: -29rem;
+}
+.bloc2 {
+  position: absolute;
+  top: -10rem;
+}
+.bloc1 li,
+.bloc2 li {
+  display: inline-block;
+  width: 23.5%;
+  margin-left: 1%;
+}
+.bloc1 li .first,
+.bloc2 li .first {
+  margin-left: 0%;
+}
+#universe-img {
+  width: 100%;
+}
+#second-article {
+  position: relative;
+  margin-left: -15%;
+  width: 80%;
+}
+#second-article figcaption {
+  margin: 10px 0px 10px 0px;
+}
+#cosmos {
+  width: 100%;
 }
 
 .moreSpace {
@@ -163,7 +278,7 @@ main span {
 .editorPick {
   border-top: 1px solid #121212;
   margin-top: 70px;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 .editorPick li {
@@ -184,9 +299,9 @@ main span {
 
 .side-footer {
   width: 30%;
-  position: absolute;
+  position: relative;
   left: 950px;
-  top: 708px;
+  bottom: 1204px;
   border-top: 1px solid #000;
 }
 
@@ -218,7 +333,6 @@ footer {
   border-bottom: 2px groove #333;
   margin-bottom: 10px;
   padding-bottom: 20px;
-
   padding-top: 20px;
 }
 
@@ -278,7 +392,6 @@ footer tr {
   padding: 20px 0;
   margin: 5px 1% 5px 1%;
   transition: height 1s;
-  /* -webkit-transition: height 0.5s; */
   overflow: hidden;
 }
 
