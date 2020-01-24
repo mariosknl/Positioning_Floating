@@ -368,7 +368,7 @@ main article section figcaption {
 }
 
 footer {
-  position: relative;
+  position: rel;
   left: 4%;
   width: 90%;
   border-top: 2px groove #333;
@@ -376,7 +376,7 @@ footer {
   margin-bottom: 10px;
   padding-bottom: 20px;
   padding-top: 20px;
-  bottom: 20px;
+  bottom: 100px;
 }
 
 footer h1 {
