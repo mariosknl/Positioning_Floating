@@ -284,10 +284,6 @@ footer tr {
 
 .expand span {
   position: absolute;
-  right: 10px;
+  right: 40px;
   top: 20px;
-}
-
-.expand:hover {
-  height: 500px;
 }
