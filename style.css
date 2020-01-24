@@ -287,3 +287,27 @@ footer tr {
   right: 40px;
   top: 20px;
 }
+@media only screen and (max-width: 1280px) {
+ 
+  .side-footer {
+    width: 25%;
+    position: absolute;
+    left: 950px;
+    top: 650px;
+    border-top: 1px solid #000;
+  }
+  .moreSpace{
+    width: 70%;
+    border-top: 1px solid #000000;
+    padding-bottom: 70px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+  }
+  .container{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+}
