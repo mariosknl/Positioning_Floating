@@ -149,11 +149,28 @@ main article section{
   line-height: 1.8rem;
 }
 main article section p{
+  font-family: 'Times New Roman', Times, serif;
   margin-top: 15px;
   text-align: justify;
+  font-weight: normal;
 }
 main article section h3{
   margin-top: 10px;
+}
+
+main article nav ul li button{
+  background: #567b95;
+  cursor: pointer;
+  width: 250px;
+  border: none;
+  height: 40px;
+  color: #fffff8;
+  border-radius: 5px;
+}
+
+main article section figcaption{
+  font-size: .8rem;
+  line-height: 1rem;
 }
 
 .main-img{
