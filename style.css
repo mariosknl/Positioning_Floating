@@ -212,7 +212,7 @@ main .article nav ul li span {
   position: absolute;
   font-size: 12px;
   left: 85%;
-  letter-spacing: 1px;
+  letter-spacing: 0.1em;
   top: 0px;
   width: 20px;
   text-align: center;
