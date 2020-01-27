@@ -210,9 +210,10 @@ main .article .navigation li {
 main article nav ul li span,
 main .article nav ul li span {
   position: absolute;
-  font-size: 15px;
-  left: 96.5%;
-  top: 60px;
+  font-size: 12px;
+  left: 85%;
+  letter-spacing: 1px;
+  top: 0;
   width: 20px;
   text-align: center;
 }
