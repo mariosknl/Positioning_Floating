@@ -171,18 +171,6 @@ main article nav ul,
   margin-left: 1%;
 }
 
-.moreSpace ul li {
-  width: 32.5%;
-  display: inline-block;
-  vertical-align: top;
-  margin-bottom: 10px;
-}
-
-main article nav ul li,
-.main .article nav ul li {
-  display: inline-block;
-}
-
 .footer2 li {
   display: inline;
   font-size: 12px;
@@ -195,6 +183,17 @@ nav .navigation li {
   display: inline;
 }
 
+.moreSpace ul li {
+  width: 32.5%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+main .article .navigation li {
+  margin-left: 10px;
+}
+
 .side-footer ul li {
   width: 90%;
   font-size: 22px;
@@ -204,8 +203,9 @@ nav .navigation li {
   border-top: 1px solid #3333;
 }
 
-main .article .navigation li {
-  margin-left: 10px;
+main article nav ul li,
+.main .article nav ul li {
+  display: inline-block;
 }
 
 main article nav ul li span,
