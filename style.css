@@ -137,6 +137,7 @@ main iframe {
   height: 320px;
 }
 
+main article,
 main .article {
   position: relative;
   margin-top: 30px;
@@ -157,6 +158,7 @@ main .article {
   padding-top: 10px;
 }
 
+/* main article nav ul, */
 .main .article nav ul {
   display: inline-block;
   margin-top: 30px;
@@ -205,6 +207,7 @@ main .article .navigation li {
   display: inline-block;
 }
 
+main article nav ul li span,
 main .article nav ul li span {
   position: absolute;
   font-size: 15px;
@@ -214,6 +217,7 @@ main .article nav ul li span {
   text-align: center;
 }
 
+/* main article nav ul li i, */
 main .article nav ul li i {
   font-size: 25px;
 }
