@@ -137,7 +137,6 @@ main iframe {
   height: 320px;
 }
 
-main article,
 main .article {
   position: relative;
   margin-top: 30px;
@@ -149,12 +148,6 @@ main .article {
   width: 100%;
 }
 
-main article nav ul,
-.main .article nav ul {
-  display: inline-block;
-  margin-top: 30px;
-}
-
 .side-footer ul {
   display: block;
   width: 100%;
@@ -164,29 +157,9 @@ main article nav ul,
   padding-top: 10px;
 }
 
-.side-footer ul li {
-  width: 90%;
-  font-size: 22px;
-  font-weight: 500;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  border-top: 1px solid #3333;
-}
-
-main .article .navigation li {
-  margin-left: 10px;
-}
-
-.moreSpace ul li {
-  width: 32.5%;
+.main .article nav ul {
   display: inline-block;
-  vertical-align: top;
-  margin-bottom: 10px;
-}
-
-main article nav ul li,
-.main .article nav ul li {
-  display: inline-block;
+  margin-top: 30px;
 }
 
 .bloc1 li,
@@ -204,11 +177,34 @@ main article nav ul li,
   padding-bottom: 30px;
 }
 
+.side-footer ul li {
+  width: 90%;
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-top: 1px solid #3333;
+}
+
+.moreSpace ul li {
+  width: 32.5%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
 nav .navigation li {
   display: inline;
 }
 
-main article nav ul li span,
+main .article .navigation li {
+  margin-left: 10px;
+}
+
+.main .article nav ul li {
+  display: inline-block;
+}
+
 main .article nav ul li span {
   position: absolute;
   font-size: 15px;
@@ -218,7 +214,6 @@ main .article nav ul li span {
   text-align: center;
 }
 
-main article nav ul li i,
 main .article nav ul li i {
   font-size: 25px;
 }
