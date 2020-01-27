@@ -1,0 +1,420 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.all-container {
+  margin: 0;
+  padding: 0;
+  width: 95%;
+  position: absolute;
+  min-height: 100vh;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+header nav {
+  position: relative;
+  margin: 0 auto;
+  height: 45px;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #fff;
+}
+
+header nav ul {
+  display: inline-block;
+}
+
+aside ul li {
+  margin-bottom: 30px;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+footer p a {
+  color: #567b95;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  font-size: 10px;
+}
+
+header nav ul a {
+  color: black;
+}
+
+iframe {
+  border: none;
+}
+
+.left-nav {
+  float: left;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.center-nav {
+  margin-top: 7px;
+  margin-left: 280px;
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 20px;
+}
+
+.center-nav::after {
+  content: '';
+  clear: both;
+}
+
+.right-nav button {
+  position: relative;
+  bottom: 10px;
+  left: 200px;
+  padding: 5px 15px;
+  background-color: #326891;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.article nav ul li button {
+  background: #567b95;
+  cursor: pointer;
+  width: 250px;
+  border: none;
+  height: 40px;
+  color: #fffff8;
+  border-radius: 5px;
+}
+
+main {
+  width: 100%;
+}
+
+main h1 {
+  position: relative;
+  top: 150px;
+  width: 400px;
+  font-size: 44px;
+  color: #121212;
+  margin: 0 auto;
+  font-family: 'Chela One', cursive;
+  letter-spacing: 2px;
+}
+
+main hr {
+  width: 100px;
+  margin-top: 10px;
+}
+
+main span {
+  display: block;
+  position: relative;
+  top: 153px;
+  left: 25px;
+  width: 450px;
+  font-size: 44px;
+  color: #121212;
+  margin: 0 auto;
+  font-family: 'Chela One', cursive;
+  letter-spacing: 2px;
+}
+
+main iframe {
+  width: 100%;
+  height: 320px;
+}
+
+main article,
+main .article {
+  position: relative;
+  margin-top: 30px;
+  left: 25%;
+  width: 50%;
+}
+
+.moreSpace ul {
+  width: 100%;
+}
+
+.side-footer ul {
+  display: block;
+  width: 100%;
+}
+
+.footer2 ul {
+  padding-top: 10px;
+}
+
+/* main article nav ul, */
+.main .article nav ul {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.bloc1 li,
+.bloc2 li {
+  display: inline-block;
+  width: 23.5%;
+  margin-left: 1%;
+}
+
+.footer2 li {
+  display: inline;
+  font-size: 12px;
+  margin-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.side-footer ul li {
+  width: 90%;
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-top: 1px solid #3333;
+}
+
+.moreSpace ul li {
+  width: 32.5%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+nav .navigation li {
+  display: inline;
+}
+
+main .article .navigation li {
+  margin-left: 10px;
+}
+
+.main .article nav ul li {
+  display: inline-block;
+}
+
+main article nav ul li span,
+main .article nav ul li span {
+  position: absolute;
+  font-size: 12px;
+  left: 85%;
+  letter-spacing: 1px;
+  top: 0;
+  width: 20px;
+  text-align: center;
+}
+
+/* main article nav ul li i, */
+main .article nav ul li i {
+  font-size: 25px;
+}
+
+nav .navigation {
+  position: relative;
+  top: -30px;
+  float: right;
+}
+
+.moreSpace {
+  margin: 30px;
+  display: inline-block;
+  width: 65%;
+}
+
+aside ul li a {
+  width: 47%;
+  color: black;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  float: right;
+}
+
+.editorPick a {
+  color: #121212;
+}
+
+.footer2 li a {
+  color: #666;
+}
+
+.navigation li a {
+  color: #121212;
+}
+
+.navigation li a:hover {
+  color: blue;
+}
+
+section,
+.section,
+.second-section {
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+section p,
+.section p,
+.second-section p {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 15px;
+  text-align: justify;
+  font-weight: normal;
+}
+
+main article section h3 {
+  margin-top: 10px;
+}
+
+.main-img {
+  width: 70%;
+  position: relative;
+  left: 250px;
+}
+
+.text-bloc {
+  position: relative;
+}
+
+.bloc1 {
+  position: absolute;
+  top: -29rem;
+}
+
+.bloc2 {
+  position: absolute;
+  top: -10rem;
+}
+
+.bloc1 li .first,
+.bloc2 li .first {
+  margin-left: 0%;
+}
+
+#universe-img {
+  width: 100%;
+}
+
+#second-article {
+  position: relative;
+  margin-left: -15%;
+  width: 80%;
+}
+
+#cosmos {
+  width: 100%;
+}
+
+aside ul li img {
+  width: 50%;
+}
+
+.moreSpace img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.moreSpace small {
+  font-size: 12px;
+}
+
+.space {
+  position: relative;
+  top: 23px;
+}
+
+.more-content {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.side-footer {
+  width: 30%;
+  position: relative;
+  vertical-align: top;
+  float: right;
+  border-top: 1px solid #000;
+}
+
+.side-footer h3 {
+  font-size: 20px;
+  padding-top: 32px;
+  padding-bottom: 2px;
+}
+
+aside h2 {
+  margin-bottom: 20px;
+}
+
+.second-section {
+  margin-top: 0;
+  width: 150%;
+}
+
+aside {
+  width: 28%;
+  position: relative;
+  float: right;
+}
+
+footer {
+  left: 4%;
+  width: 90%;
+  border-top: 2px groove #333;
+  border-bottom: 2px groove #333;
+  margin: 0 0 10px 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+footer h1 {
+  padding-bottom: 10px;
+}
+
+footer table {
+  width: 100%;
+}
+
+.footer-titles th {
+  text-align: left;
+}
+
+footer tr {
+  padding-top: 7px;
+}
+
+.footer2 {
+  width: 90%;
+  position: relative;
+  left: 15%;
+}
+
+.expand {
+  width: 100%;
+  height: 12px;
+  text-align: center;
+  position: relative;
+  border-top: 1px solid #000;
+  padding: 20px 0;
+  margin: 5px 1% 5px 1%;
+}
+
+#text-2 {
+  width: 67%;
+}
