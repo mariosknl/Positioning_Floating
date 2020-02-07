@@ -2,6 +2,9 @@
 
 Positioning and Floating Elements
 
+<img width="1435" alt="Screenshot 2020-02-07 at 4 37 32 PM" src="https://user-images.githubusercontent.com/50610396/74038067-333acd80-49c8-11ea-9b51-104a49454428.png">
+
+
 # What it does
 
 It resembles the new york times space and cosmos |
@@ -14,9 +17,9 @@ Space Ripples Reveal Big Bang’s Smoking Gun page
 
 #### and deployed to Github
 
-## Live Demo
+[LIVE DEMO](https://raw.githack.com/mariosknl/Positioning_Floating/second-version/index.html)
 
-https://raw.githack.com/mariosknl/Positioning_Floating/second-version/index.html
+
 
 ## Getting Started
 
@@ -28,11 +31,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-## Author1
-
-Github: @mariosknl
-Twitter: @MariosKnl
-Linkedin: https://www.linkedin.com/in/marios-kanellopoulos-a99332181/
+👤 Marios Kanellopoulos
+- Github: [@mariosknl](https://github.com/mariosknl)
+- Twitter: [@mariosknl](https://twitter.com/MariosKnl)
+- Linkedln: [marios-kanellopoulos](https://www.linkedin.com/in/marios-kanellopoulos-a99332181/)
+- [![Mariosknl is available for hire!](http://hireable.me/mariosknl)](http://hireable.me/p/mariosknl)
 
 ## Author2
 
